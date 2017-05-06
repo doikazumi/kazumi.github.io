@@ -1,0 +1,60 @@
+<% provide(:title, "Works") %>
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="page-header">
+          <h1>美味しい自家栽培</h1>
+        </div>
+    </div>
+    <div class="col-xs-8 col-sm-8 col-md-8">
+        <div class="card">
+            <%= link_to image_tag("huki.png" ,class: "rounded fullSize"), crops_butterbur_url %>
+            <a>ふき</a>
+        </div>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4">
+       <div class="card">
+            <%= link_to image_tag("tomato.png" ,class: "rounded fullSize"), crops_tomato_url %>
+            <a>完熟トマト</a>
+        </div>
+       <div class="card">
+            <%= link_to image_tag("grape.png" ,class: "rounded fullSize"), crops_grape_url %>
+            <a>ぶどう</a>
+        </div>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4">
+       <div class="card">
+            <%= link_to image_tag("noImage.png" ,class: "rounded fullSize"), crops_sweetpotato_url %>
+            <a>さつまいも</a>
+        </div>
+
+       <div class="card">
+            <%= link_to image_tag("noImage.png" ,class: "rounded fullSize"), crops_watermelon_url %>
+            <a>スイカ</a>
+        </div>
+    </div>
+    <div class="col-xs-8 col-sm-8 col-md-8">
+       <div class="card">
+            <%= link_to image_tag("paddyfield.png" ,class: "rounded fullSize"), crops_paddyfield_url %>
+            <a>水田</a>
+        </div>
+    </div>
+    <div class="col-xs-8 col-sm-8 col-md-8">
+       <div class="card">
+            <%= link_to image_tag("chestnut.png" ,class: "rounded fullSize"), crops_chestnut_url %>
+            <a>栗園</a>
+        </div>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4">
+       <div class="card">
+            <%= link_to image_tag("chestnut1.png" ,class: "rounded fullSize"), crops_chestnut_url %>
+            <a>栗</a>
+        </div>
+    </div>
+    <div class="col-xs-8 col-sm-8 col-md-8">
+        <div class="page-header">
+          <h1>収穫の体験受け付けています。</h1>
+        </div>
+          <%= link_to button_tag('詳しくはこちら', title:'お問い合わせ', class:"btn btn-primary"), pages_contact_url %>
+        </div>
+    </div>
+</div>
