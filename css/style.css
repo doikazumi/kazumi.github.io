@@ -1,0 +1,50 @@
+html {
+  position: relative;
+  min-height: 100%;
+  overflow-x : hidden;
+overflow-y : auto;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 4em;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+  overflow-x: hidden;
+  overflow-y : auto;
+}
+
+.background {
+  background-color: #f6f6f6;
+  background-image: url("../images/wood_pattern.png");
+  background-repeat: repeat;
+}
+
+.content{
+    margin-top: 4em;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 4em;
+}
+.page-header{
+  text-align:center;
+}
+.centertext{
+  margin-top:1em;
+  margin-bottom:3em;
+  padding-top: 3em;
+  padding-bottom: 3em; 
+  text-align:center;
+}
+
+.fullSize{
+  width: 100%;
+}
+div 
+.fontstyle{
+  font-size: 14pt;
+}
