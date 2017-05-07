@@ -51,22 +51,68 @@
 		</div>
 	</div>
 </nav>
-    
-    <div class="navbar navbar-inverse  navbar-fixed-top">
-      <a class="navbar-brand navbar-brand-center" href="index.html">土井邸宅園</a>
-      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
     </div>
-    <div class="container content">
 
 
 
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/Slider0.png" class="d-block img-fluid" alt= "First slide" >
 
-
+      <!--#<img class="d-block img-fluid" src="images/Slider0.png" alt="First slide">-->
     </div>
+    <div class="item">
+      <img src="images/Slider1.png" class="d-block img-fluid" alt= "First slide" >
+       <!-- image_tag("Slider1.png", class:"d-block img-fluid", alt: "Second slide" ) %-->
+    </div>
+    <div class="item">
+       <img src="images/Slider2.png" class="d-block img-fluid" alt= "First slide" >
+    </div>
+    <div class="item">
+       <img src="images/Slider3.png" class="d-block img-fluid" alt= "First slide" >
+    </div>
+  </div>
+  <a class="left carousel-control" href="#carouselExampleIndicators" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carouselExampleIndicators" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>        
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="page-header">
+          <h1>ようこそ！土井家自宅庭園へ</h1>
+        </div>
+    </div>
+<div class="col-xs-6 col-sm-6 col-md-6">
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkazumimisakodoi&tabs=timeline&width=500&height=374&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="374" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+</div>
+<div class="col-xs-3 col-sm-3 col-md-3">
+<img src="images/kazumiface.png" class= "img-circle fullSize">
+<a>土井一三</a>
+</div>
+<div class="col-xs-3 col-sm-3 col-md-3">
+<img src="images/misakoface.png" class= "img-circle fullSize">
+<a>土井美佐子</a>
+  </div>
+  <div class="col-xs-6 col-sm-6 col-md-6">
+    <a>美味しい野菜を育てています。<br>お近くにお越しの際はどうぞ、お立ち寄りください。</a>
+  </div>
+  <div class="col-xs-6 col-sm-6 col-md-6">
+    <button title='自家栽培' class="btn btn-primary" onClick="location.href='http://google.com'">自家栽培</button>
+    <!--%= link_to button_tag('自己紹介', title:'自己紹介', class:"btn btn-primary"), pages_profile_url %-->
+    <!--%= link_to button_tag('お問い合わせ', title:'お問い合わせ', class:"btn btn-primary"), pages_contact_url %-->
+  </div>
+</div>
+
     <footer class="footer bg-faded">
       <div class="container">
         <p class="text-muted">CopyRight (c) takerunomikoto 2017</p>
